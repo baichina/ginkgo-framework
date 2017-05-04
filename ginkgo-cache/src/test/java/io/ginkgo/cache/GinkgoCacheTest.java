@@ -9,9 +9,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = App.class)
-public class RscacheTest {
+public class GinkgoCacheTest {
 
-	private static final Logger log = Logger.getLogger(RscacheTest.class);
+	private static final Logger log = Logger.getLogger(GinkgoCacheTest.class);
 	@Autowired
 	private TestService testService;
 
