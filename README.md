@@ -1,2 +1,2 @@
 # ginkgo
-A friendly web framework for Java.
+## A friendly web framework for Java.
