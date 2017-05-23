@@ -1,4 +1,4 @@
-package io.ginkgo.cache;
+package io.ginkgo;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
@@ -22,4 +22,5 @@ public class TestService {
 		log.info("not cache getObject=" + r);
 		return r;
 	}
+	
 }

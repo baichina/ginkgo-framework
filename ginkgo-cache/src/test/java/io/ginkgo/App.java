@@ -1,4 +1,4 @@
-package io.ginkgo.cache;
+package io.ginkgo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,4 +24,5 @@ public class App extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
 	}
+	
 }

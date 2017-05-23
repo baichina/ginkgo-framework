@@ -1,4 +1,4 @@
-package io.ginkgo.cache;
+package io.ginkgo;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
@@ -20,4 +20,5 @@ public class GinkgoCacheTest {
 		log.info("test=" + testService.getString("a"));
 		log.info("test=" + testService.getString("a"));
 	}
+	
 }

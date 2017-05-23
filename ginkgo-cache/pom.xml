@@ -13,7 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
-		<ginkgo-cache.version>1.0.0-SNAPSHOT</ginkgo-cache.version>
+		<ginkgo-cache.version>1.0.0</ginkgo-cache.version>
 		<spring-boot.version>1.4.1.RELEASE</spring-boot.version>
 		<fastjson.version>1.2.14</fastjson.version>
 	</properties>
