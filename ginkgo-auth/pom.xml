@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>io.ginkgo.auth</groupId>
+	<artifactId>ginkgo-auth</artifactId>
+	<version>${ginkgo-auth.version}</version>
+	<packaging>jar</packaging>
+
+	<name>ginkgo-auth</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jdk.version>1.8</jdk.version>
+		<ginkgo-auth.version>1.0.0</ginkgo-auth.version>
+		<spring-boot.version>1.4.1.RELEASE</spring-boot.version>
+		<fastjson.version>1.2.14</fastjson.version>
+		<ginkgo-cache.version>1.0.0</ginkgo-cache.version>
+		<ginkgo-util.version>1.0.0</ginkgo-util.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>${spring-boot.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<version>${spring-boot.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<version>${spring-boot.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>${fastjson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.ginkgo.cache</groupId>
+			<artifactId>ginkgo-cache</artifactId>
+			<version>${ginkgo-cache.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.ginkgo.util</groupId>
+			<artifactId>ginkgo-util</artifactId>
+			<version>${ginkgo-util.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>ginkgo-auth</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
