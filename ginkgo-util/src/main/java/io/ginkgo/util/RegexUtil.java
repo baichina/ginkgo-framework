@@ -47,7 +47,9 @@ public class RegexUtil {
 		if (regex == null || str == null) {
 			return new String[0];
 		}
-		return str.split(regex);
+		return str.split(regex, -1);
+		// 不加limit，会丢失尾部的空字符串
+		// return str.split(regex);
 	}
 
 	/**
