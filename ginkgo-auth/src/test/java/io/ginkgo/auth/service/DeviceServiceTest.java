@@ -7,12 +7,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import io.ginkgo.App;
-import io.ginkgo.RsauthBaseTest;
+import io.ginkgo.BaseTest;
 import io.ginkgo.auth.entity.Device;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = App.class)
-public class DeviceServiceTest extends RsauthBaseTest {
+public class DeviceServiceTest extends BaseTest {
 
 	@Autowired
 	private DeviceService deviceService;

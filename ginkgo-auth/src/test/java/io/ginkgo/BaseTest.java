@@ -10,9 +10,9 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
  * 
  * @author baiwei
  */
-public class RsauthBaseTest {
+public class BaseTest {
 
-	protected static final Logger log = Logger.getLogger(RsauthBaseTest.class);
+	protected static final Logger log = Logger.getLogger(BaseTest.class);
 
 	public void testPrint(Object obj) {
 		log.info(JSON.toJSONString(obj, SerializerFeature.WriteMapNullValue));
