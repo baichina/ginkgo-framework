@@ -1,16 +1,10 @@
 # ginkgo-util历史版本
-## v1.0.1 20170524
-### v1.0.1 新增List扩展工具类io.ginkgo.util.ListUtil
-```Java
-/**
- * 按平均间隔(list.size() / num)，取固定个(num)元素
- * 
- * @param list
- *            原列表
- * @param num
- *            数量
- * @return num个元素的List
- */
-public List<T> fetch(List<T> list, int num)
-```
-## v1.0.0 20170503
+
+## v1.0.3
+更新时间 20170524
+### v1.0.3 FormatUtil小数转换的类型，由Double改为Number
+### v1.0.2 FormatUtil增加时间格式
+### v1.0.1 新增List扩展工具类ListUtil
+
+## v1.0.0
+更新时间 20170503

@@ -19,12 +19,14 @@ public class FormatUtilTest {
 	}
 
 	@Test
-	public void decimalToStr() {
-		System.out.println(FormatUtil.decimalToStr(pi, FormatUtil.DECIMAL_2));
+	public void getDecimal() {
+		System.out.println(FormatUtil.getDecimal(pi, FormatUtil.DECIMAL_2));
+		System.out.println(FormatUtil.getDecimal(pi.toString(), FormatUtil.DECIMAL_2));
 	}
 
 	@Test
-	public void strToDecimal() {
-		System.out.println(FormatUtil.decimalToStr(pi.toString(), FormatUtil.DECIMAL_2));
+	public void getDecimalString() {
+		System.out.println(FormatUtil.getDecimalString(pi, FormatUtil.DECIMAL_2));
+		System.out.println(FormatUtil.getDecimalString(pi.toString(), FormatUtil.DECIMAL_2));
 	}
 }

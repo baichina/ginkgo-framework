@@ -13,7 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
-		<ginkgo-util.version>1.0.0</ginkgo-util.version>
+		<ginkgo-util.version>1.0.3</ginkgo-util.version>
 	</properties>
 
 	<dependencies>
