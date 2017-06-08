@@ -4,7 +4,7 @@ package io.ginkgo.auth.exception;
  * 业务异常基类
  * 
  * @since 1.0.0
- * @author baiwei
+ * @author Barry
  */
 public class BusinessException extends RuntimeException {
 

@@ -74,10 +74,10 @@ public abstract class BaseSessionFilter implements Filter {
 			// 校验通过
 			chain.doFilter(request, response);
 		} else {
-			// 需要重新登录
+			// 校验不通过
 			PrintWriter out = response.getWriter();
 			Map<String, String> responseBody = new HashMap<>();
-			responseBody.put("code", "RSAUTH_999999");
+			responseBody.put("code", "AUTH_999999");
 			responseBody.put("msg", "logout");
 			out.print(JSON.toJSON(responseBody).toString());
 			return;
@@ -108,7 +108,7 @@ public abstract class BaseSessionFilter implements Filter {
 	}
 
 	/**
-	 * 校验http头信息，默认通过
+	 * 校验http header登录会话信息，默认通过
 	 * <p>
 	 * 重载此方法
 	 * </p>

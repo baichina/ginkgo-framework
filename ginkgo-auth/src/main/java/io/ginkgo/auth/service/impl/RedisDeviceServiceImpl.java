@@ -21,7 +21,7 @@ import io.ginkgo.util.UUIDUtil;
  * 设备信息redis实现
  * 
  * @since 1.0.0
- * @author baiwei
+ * @author Barry
  */
 @Service
 public class RedisDeviceServiceImpl implements DeviceService {

@@ -4,9 +4,12 @@ package io.ginkgo.auth.constants;
  * redis KEY
  * 
  * @since 1.0.0
- * @author baiwei
+ * @author Barry
  */
 public class RedisKeys {
+
+	public static final String SYSTEM = "auth";
+
 	/**
 	 * 设备信息，${deviceId}
 	 * <p>
@@ -16,7 +19,7 @@ public class RedisKeys {
 	 * clientVersion、securityCode、token、userId
 	 * </p>
 	 */
-	public static final String DEVICE = "rsauth:device:%s";
+	public static final String DEVICE = SYSTEM + ":device:%s";
 
 	/**
 	 * 用户信息，${userId}
@@ -27,5 +30,5 @@ public class RedisKeys {
 	 * deviceId
 	 * </p>
 	 */
-	public static final String USER = "rsauth:user:%s";
+	public static final String USER = SYSTEM + ":user:%s";
 }

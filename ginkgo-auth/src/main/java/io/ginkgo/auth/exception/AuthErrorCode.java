@@ -1,17 +1,18 @@
 package io.ginkgo.auth.exception;
 
 /**
- * 通用系统错误码：RSAUTH_开头
+ * 通用系统错误码：AUTH_开头
  * 
- * @author baiwei
+ * @since 1.0.0
+ * @author Barry
  */
 public enum AuthErrorCode {
 
-	SUCCESS("RSAUTH_000000", "成功"),
+	SUCCESS("AUTH_000000", "成功"),
 
-	AUTH_EXCEPTION("RSAUTH_999999", "账号认证异常"),
+	AUTH_EXCEPTION("AUTH_999999", "账号认证异常"),
 
-	NO_LOGIN("RSAUTH_000001", "没有登录信息"),
+	NO_LOGIN("AUTH_000001", "没有登录信息"),
 
 	;
 

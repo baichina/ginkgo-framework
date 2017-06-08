@@ -14,11 +14,11 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
-		<ginkgo-auth.version>1.0.0</ginkgo-auth.version>
-		<spring-boot.version>1.4.1.RELEASE</spring-boot.version>
+		<ginkgo-auth.version>1.0.1.f</ginkgo-auth.version>
+		<spring-boot.version>1.5.3.RELEASE</spring-boot.version>
 		<fastjson.version>1.2.14</fastjson.version>
 		<ginkgo-cache.version>1.0.0</ginkgo-cache.version>
-		<ginkgo-util.version>1.0.0</ginkgo-util.version>
+		<ginkgo-util.version>1.0.3</ginkgo-util.version>
 	</properties>
 
 	<dependencies>

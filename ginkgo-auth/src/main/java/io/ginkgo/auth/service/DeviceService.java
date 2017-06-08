@@ -7,7 +7,7 @@ import io.ginkgo.auth.entity.User;
  * 设备信息
  * 
  * @since 1.0.0
- * @author baiwei
+ * @author Barry
  */
 public interface DeviceService {
 
